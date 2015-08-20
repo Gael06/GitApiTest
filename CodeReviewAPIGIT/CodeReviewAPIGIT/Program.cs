@@ -8,8 +8,8 @@ namespace CodeReviewAPIGIT
         {
             Console.WriteLine("Hello world!");
             var firstVar = string.Format("{0} commit infos", Console.ReadLine());
-            Console.WriteLine(firstVar);
             Console.ReadLine();
+            firstVar += "removed and added line test";
         }
     }
 }
